@@ -1,0 +1,25 @@
+Package: mypractice1
+Title: My practice package
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jiefeng",
+           family = "Bi",
+           role = c("cre", "aut"),
+           email = "623101934@qq.com")
+Description: This is my practice package.
+License: LGPL (>= 3)
+URL: https://github.com/Jiefeng Bi/mypractice
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)
+VignetteBuilder: knitr
